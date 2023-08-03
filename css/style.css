@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* header style */
+
+#headnav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+#headtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#subtitle {
+    color: cadetblue;
+}
+
+/* main style */
+
+#callus {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+    margin-top: 20px;  
+}
+
+
+.conar {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}    
+
+.conar h5 {
+    text-align: center;
+}    
+
+#article {
+    display: block;
+    height: 180px;
+}    
+
+#article img{
+    display: inline-block;
+}    
+
+#form {
+    margin: 18px auto 18px auto;
+}
+
+#form #botsum {
+    padding:  0 auto;
+    display: block;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.judulop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+.conop {
+    width: 100%;
+}
+
+.ops {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+    margin-top: 30px;
+    align-content: space-between;
+}
+
+.opatas {
+    width: 300px;
+}
+
+.opcon {
+    display: flex; 
+    gap: 10px;
+}
+
+.garis_luar {
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.garis_tengah {
+    width: 150px;
+    height: 3px;
+    background-color: grey;
+}
+
+/* footer */
+
+.fbox {
+    display: flex;
+    margin: 5em 0 0 0;
+    justify-content: center;
+}
+
+.fatas {
+    text-align: center;
+}
+
+.fatas h1 {
+    margin: 1em 0;
+}
+
+.fatas h5 {
+    margin: 1em 0;
+}
+
+.fatas button {
+    width: 10.7em;
+    height: 3em;
+}
+
+.fcredit {
+    display: flex;
+    padding-bottom: 1em;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+@media screen and (max-width: 950px){ 
+    .ops{
+        width: 80%;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 30px auto;
+    }
+}
+
+@media screen and (max-width: 783px) {
+    .ops{
+        justify-content: center;
+    }
+}
